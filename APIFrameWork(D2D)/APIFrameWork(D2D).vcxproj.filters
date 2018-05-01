@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01.GameMain">
+      <UniqueIdentifier>{eff4995e-f933-442b-8adf-cd7ed47ad24e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.APImain">
+      <UniqueIdentifier>{c8c99893-4d5d-432e-803c-a6cc3fbe734e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.OneDogStory">
+      <UniqueIdentifier>{42383488-ecec-478b-8c77-7cafc20e54e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.OneDogStory\01.scenes">
+      <UniqueIdentifier>{08202fea-6a7d-4702-8493-ef7ddae072fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Utils">
+      <UniqueIdentifier>{e64d43cc-6927-491c-a161-9e58a7faaccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Managers">
+      <UniqueIdentifier>{610b971b-c80b-4d9b-8677-0592ff76faa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.MNG Header">
+      <UniqueIdentifier>{eb253e90-08c3-4d57-bba6-a1c33b49e4a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.OneDogStory\02.inGame">
+      <UniqueIdentifier>{b3a7d96e-04ae-4ac1-9884-368582d7c787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.OneDogStory\02.inGame\02.Map">
+      <UniqueIdentifier>{9b840221-f764-4cab-9993-edb2191e31b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.OneDogStory\02.inGame\01.UI">
+      <UniqueIdentifier>{90891045-dc0a-49d7-bc21-6aab298a22c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.OneDogStory\02.inGame\02.Map\01.Dog">
+      <UniqueIdentifier>{d338df03-2d64-4ecf-88bf-be791c8d98a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.OneDogStory\02.inGame\02.Map\02.Enemy">
+      <UniqueIdentifier>{89598163-55a7-4404-bc4f-05fe03e0947f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.OneDogStory\02.inGame\02.Map\03.Bullet">
+      <UniqueIdentifier>{3e17dbf3-0411-4b62-80eb-b21c9d39eea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.OneDogStory\02.inGame\02.Map\04.Object">
+      <UniqueIdentifier>{8ba2db82-e4f8-413c-ba66-0cfc13bb7ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.OneDogStory\02.inGame\00.common">
+      <UniqueIdentifier>{12e50957-1a40-447e-a2c3-7e4be926b030}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>05.APImain</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>05.APImain</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>05.APImain</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>02.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>02.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>02.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>02.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>01.GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="APIFrameWork(D2D).h">
+      <Filter>05.APImain</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>04.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>04.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>03.MNG Header</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>03.MNG Header</Filter>
+    </ClInclude>
+    <ClInclude Include="iniData.h">
+      <Filter>03.MNG Header</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>04.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>04.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>02.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>03.MNG Header</Filter>
+    </ClInclude>
+    <ClInclude Include="loadingScene.h">
+      <Filter>00.OneDogStory\01.scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGameScene.h">
+      <Filter>00.OneDogStory\01.scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="menuScene.h">
+      <Filter>00.OneDogStory\01.scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="selectDataScene.h">
+      <Filter>00.OneDogStory\01.scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraManager.h">
+      <Filter>02.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>03.MNG Header</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>03.MNG Header</Filter>
+    </ClInclude>
+    <ClInclude Include="animationManager.h">
+      <Filter>02.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>02.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="dog.h">
+      <Filter>00.OneDogStory\02.inGame\02.Map\01.Dog</Filter>
+    </ClInclude>
+    <ClInclude Include="helpScene.h">
+      <Filter>00.OneDogStory\01.scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>00.OneDogStory\02.inGame\02.Map\04.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="invenItem.h">
+      <Filter>00.OneDogStory\02.inGame\02.Map\04.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>00.OneDogStory\02.inGame\01.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>00.OneDogStory\02.inGame\02.Map\04.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>00.OneDogStory\02.inGame\02.Map\02.Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>00.OneDogStory\02.inGame\00.common</Filter>
+    </ClInclude>
+    <ClInclude Include="handyFunction.h">
+      <Filter>00.OneDogStory\02.inGame\00.common</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>00.OneDogStory\02.inGame\00.common</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>00.OneDogStory\02.inGame\02.Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Elevator.h">
+      <Filter>00.OneDogStory\02.inGame\02.Map\04.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>00.OneDogStory\02.inGame\02.Map\03.Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DropItem.h">
+      <Filter>00.OneDogStory\02.inGame\02.Map\04.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="selectNewDataScene.h">
+      <Filter>00.OneDogStory\01.scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGameAgainScene.h">
+      <Filter>00.OneDogStory\01.scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>01.GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="levelScene.h">
+      <Filter>00.OneDogStory\01.scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="soundScene.h">
+      <Filter>00.OneDogStory\01.scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="APIFrameWork(D2D).cpp">
+      <Filter>05.APImain</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>05.APImain</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>02.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>02.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>02.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>02.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>01.GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>01.GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>04.Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>03.MNG Header</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>03.MNG Header</Filter>
+    </ClCompile>
+    <ClCompile Include="iniData.cpp">
+      <Filter>03.MNG Header</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>02.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="loading.cpp">
+      <Filter>03.MNG Header</Filter>
+    </ClCompile>
+    <ClCompile Include="loadingScene.cpp">
+      <Filter>00.OneDogStory\01.scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGameScene.cpp">
+      <Filter>00.OneDogStory\01.scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="menuScene.cpp">
+      <Filter>00.OneDogStory\01.scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="selectDataScene.cpp">
+      <Filter>00.OneDogStory\01.scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraManager.cpp">
+      <Filter>02.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>03.MNG Header</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>03.MNG Header</Filter>
+    </ClCompile>
+    <ClCompile Include="animationManager.cpp">
+      <Filter>02.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>02.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="dog.cpp">
+      <Filter>00.OneDogStory\02.inGame\02.Map\01.Dog</Filter>
+    </ClCompile>
+    <ClCompile Include="helpScene.cpp">
+      <Filter>00.OneDogStory\01.scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>00.OneDogStory\02.inGame\02.Map\04.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>00.OneDogStory\02.inGame\01.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>00.OneDogStory\02.inGame\02.Map\04.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>00.OneDogStory\02.inGame\02.Map\02.Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>00.OneDogStory\02.inGame\00.common</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>00.OneDogStory\02.inGame\00.common</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>00.OneDogStory\02.inGame\02.Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Elevator.cpp">
+      <Filter>00.OneDogStory\02.inGame\02.Map\04.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>00.OneDogStory\02.inGame\02.Map\03.Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DropItem.cpp">
+      <Filter>00.OneDogStory\02.inGame\02.Map\04.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="selectNewDataScene.cpp">
+      <Filter>00.OneDogStory\01.scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGameAgainScene.cpp">
+      <Filter>00.OneDogStory\01.scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="levelScene.cpp">
+      <Filter>00.OneDogStory\01.scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="soundScene.cpp">
+      <Filter>00.OneDogStory\01.scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="APIFrameWork(D2D).rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="APIFrameWork(D2D).ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
