@@ -106,7 +106,6 @@ void loadingScene::update(void)
 			ANIMATIONMANAGER->addDefAnimation(L"spider_damage", L"spider_damage", 15, false, true);
 			ANIMATIONMANAGER->addDefAnimation(L"rat_damage", L"rat_damage", 15, false, true);
 			ANIMATIONMANAGER->addDefAnimation(L"egg_damage", L"egg_damage", 10, false, true);
-
 			ANIMATIONMANAGER->addDefAnimation(L"1st_boss_idle", L"1st_boss_idle", 8, false, true);
 			ANIMATIONMANAGER->addDefAnimation(L"1st_boss_die", L"1st_boss_die", 8, false, false); 
 		}
@@ -114,28 +113,27 @@ void loadingScene::update(void)
 		//bulletEffect
 		{
 			EFFECTMANAGER->addEffect(L"gun_flash", L"gun_flash", 132 * 2, 24 * 2, 132 * 2 / 4, 24 * 2, 1, 0.3f, 100);
-		EFFECTMANAGER->addEffect(L"gun_flash_left", L"gun_flash_left", 132 * 2, 24 * 2, 132 * 2 / 4, 24 * 2, 1, 0.3f, 100);
-		EFFECTMANAGER->addEffect(L"gun_flash_up", L"gun_flash_up", 132 * 2, 50 * 2, 132 * 2 / 4, 50 * 2, 1, 0.3f, 100);
-		EFFECTMANAGER->addEffect(L"gun_flash_down", L"gun_flash_down", 132 * 2, 50 * 2, 132 * 2 / 4, 50 * 2, 1, 0.3f, 100);
-		EFFECTMANAGER->addEffect(L"rocket_flash", L"rocket_flash", 188 * 2, 32 * 2, 188 * 2 / 4, 32 * 2, 1, 0.3f, 100);
-		EFFECTMANAGER->addEffect(L"rocket_flash_left", L"rocket_flash_left", 188 * 2, 32 * 2, 188 * 2 / 4, 32 * 2, 1, 0.3f, 100);
-		EFFECTMANAGER->addEffect(L"rocket_flash_up", L"rocket_flash_up", 188 * 2, 32 * 2, 188 * 2 / 4, 32 * 2, 1, 0.3f, 100);
-		EFFECTMANAGER->addEffect(L"rocket_flash_down", L"rocket_flash_down", 188 * 2, 32 * 2, 188 * 2 / 4, 32 * 2, 1, 0.3f, 100);
-		EFFECTMANAGER->addEffect(L"shotgun_flash", L"shotgun_flash", 120 * 2, 21 * 2, 120 * 2 / 4, 21 * 2, 1, 0.3f, 100);
-		EFFECTMANAGER->addEffect(L"shotgun_flash_left", L"shotgun_flash_left", 120 * 2, 31 * 2, 120 * 2 / 4, 31 * 2, 1, 0.3f, 100);
-		EFFECTMANAGER->addEffect(L"shotgun_flash_up", L"shotgun_flash_up", 120 * 2, 31 * 2, 120 * 2 / 4, 31 * 2, 1, 0.3f, 100);
-		EFFECTMANAGER->addEffect(L"shotgun_flash_down", L"shotgun_flash_down", 120 * 2, 31 * 2, 120 * 2 / 4, 31 * 2, 1, 0.3f, 100);
-		EFFECTMANAGER->addEffect(L"plasma_flash", L"plasma_flash", 141 * 2, 35 * 2, 141 * 2 / 3, 35 * 2, 1, 0.3f, 100);
-		EFFECTMANAGER->addEffect(L"plasma_flash_left", L"plasma_flash_left", 141 * 2, 35 * 2, 141 * 2 / 3, 35 * 2, 1, 0.3f, 100);
-		EFFECTMANAGER->addEffect(L"plasma_flash_up", L"plasma_flash_up", 141 * 2, 35 * 2, 141 * 2 / 3, 35 * 2, 1, 0.3f, 100);
-		EFFECTMANAGER->addEffect(L"plasma_flash_down", L"plasma_flash_down", 141 * 2, 35 * 2, 141 * 2 / 3, 35 * 2, 1, 0.3f, 100);
-		EFFECTMANAGER->addEffect(L"gun_destroy", L"gun_destroy", 132 * 2, 24 * 2, 132 * 2 / 4, 24 * 2, 1, 0.3f, 100);
-		EFFECTMANAGER->addEffect(L"rocket_destroy", L"rocket_destroy", 188 * 2, 31 * 2, 188 * 2 / 4, 31 * 2, 1, 0.3f, 100);
-		EFFECTMANAGER->addEffect(L"shotgun_destroy", L"shotgun_destroy", 90 * 2, 20 * 2, 90 * 2 / 3, 20 * 2, 1, 0.3f, 100);
-		EFFECTMANAGER->addEffect(L"plasma_destroy", L"plasma_destroy", 141 * 2, 35 * 2, 141 * 2 / 3, 35 * 2, 1, 0.3f, 100);
-
-		EFFECTMANAGER->addEffect(L"bullet_hit", L"bullet_hit", 140 * 2, 27 * 2, 140 * 2 / 5, 27 * 2, 1, 0.3f, 100);
-		EFFECTMANAGER->addEffect(L"Dam", L"Dam", 126 * 2, 23 * 2, 126 * 2 / 6, 23 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"gun_flash_left", L"gun_flash_left", 132 * 2, 24 * 2, 132 * 2 / 4, 24 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"gun_flash_up", L"gun_flash_up", 132 * 2, 50 * 2, 132 * 2 / 4, 50 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"gun_flash_down", L"gun_flash_down", 132 * 2, 50 * 2, 132 * 2 / 4, 50 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"rocket_flash", L"rocket_flash", 188 * 2, 32 * 2, 188 * 2 / 4, 32 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"rocket_flash_left", L"rocket_flash_left", 188 * 2, 32 * 2, 188 * 2 / 4, 32 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"rocket_flash_up", L"rocket_flash_up", 188 * 2, 32 * 2, 188 * 2 / 4, 32 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"rocket_flash_down", L"rocket_flash_down", 188 * 2, 32 * 2, 188 * 2 / 4, 32 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"shotgun_flash", L"shotgun_flash", 120 * 2, 21 * 2, 120 * 2 / 4, 21 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"shotgun_flash_left", L"shotgun_flash_left", 120 * 2, 31 * 2, 120 * 2 / 4, 31 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"shotgun_flash_up", L"shotgun_flash_up", 120 * 2, 31 * 2, 120 * 2 / 4, 31 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"shotgun_flash_down", L"shotgun_flash_down", 120 * 2, 31 * 2, 120 * 2 / 4, 31 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"plasma_flash", L"plasma_flash", 141 * 2, 35 * 2, 141 * 2 / 3, 35 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"plasma_flash_left", L"plasma_flash_left", 141 * 2, 35 * 2, 141 * 2 / 3, 35 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"plasma_flash_up", L"plasma_flash_up", 141 * 2, 35 * 2, 141 * 2 / 3, 35 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"plasma_flash_down", L"plasma_flash_down", 141 * 2, 35 * 2, 141 * 2 / 3, 35 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"gun_destroy", L"gun_destroy", 132 * 2, 24 * 2, 132 * 2 / 4, 24 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"rocket_destroy", L"rocket_destroy", 188 * 2, 31 * 2, 188 * 2 / 4, 31 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"shotgun_destroy", L"shotgun_destroy", 90 * 2, 20 * 2, 90 * 2 / 3, 20 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"plasma_destroy", L"plasma_destroy", 141 * 2, 35 * 2, 141 * 2 / 3, 35 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"bullet_hit", L"bullet_hit", 140 * 2, 27 * 2, 140 * 2 / 5, 27 * 2, 1, 0.3f, 100);
+			EFFECTMANAGER->addEffect(L"Dam", L"Dam", 126 * 2, 23 * 2, 126 * 2 / 6, 23 * 2, 1, 0.3f, 100);
 		}
 
 		//sounds

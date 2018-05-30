@@ -49,7 +49,7 @@ void timeManager::render(ID2D1RenderTarget* RenderTarget)
 
 	TextFormat->SetTextAlignment(DWRITE_TEXT_ALIGNMENT_TRAILING);
 #ifdef _DEBUG
-	if (_timer != nullptr)
+	if (_timer != nullptr) {
 
 		swprintf_s(str, TEXT("FPS: %ld"), _timer->getFPS());
 		D2TextOut(RenderTarget, str, TextFormat, D2D1::RectF(0, 0, WINSIZEX_NUM, 0), Brush);
@@ -61,5 +61,5 @@ void timeManager::render(ID2D1RenderTarget* RenderTarget)
 		D2TextOut(RenderTarget, str, TextFormat, D2D1::RectF(0, 0, WINSIZEX_NUM, 0), Brush);
 	}
 #endif
-//	Brush->SetColor(D2D1::ColorF(D2D1::ColorF::Magenta));
-//}
+	Brush->SetColor(D2D1::ColorF(D2D1::ColorF::Magenta));
+}
